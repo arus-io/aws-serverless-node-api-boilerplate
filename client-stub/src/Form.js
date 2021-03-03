@@ -24,7 +24,7 @@ export default class Form extends Component {
     event.preventDefault();
     const { title  } = this.state;
     await axios.post(
-      'https://mbik71f8y4.execute-api.us-west-1.amazonaws.com/dev/auction',
+      '#add your endpoint',
       { title: `${title}` }
     );
   }
